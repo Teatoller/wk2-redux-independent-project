@@ -1,18 +1,35 @@
-# Getting Started with Create React App
+# Task Manager
+- Week 2 independent project
+- Create task manager using Redux, with ability to Edit, Read and update status as completed
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Author name
+- Steven Ennis
 
-## Available Scripts
+# Description of project
+- React web application that allows the user to create, view and edit tasks. The application has a feature to check or uncheck completed tasks
 
-In the project directory, you can run:
+# Project setup instructions
 
-### `npm start`
+## Prerequisites
+- Version control [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+## Project setup
+
+1. Create a folder on your machine `mkdir myproject`
+2. `cd myproject`
+3. Run `git https://github.com/Teatoller/wk2-independent-project.git`
+4. `cd wk2-independent-project`
+5. open **task-manager-application** in your chosen editor. For **vscode** enter `code .` on terminal and press enter.
+6. `git checkout main`
+
+# Link to live site
+on the terminal run
+1. create .env file `touch .env`
+2. run `npm install` on the terminal and then
+3. run `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 ### `npm test`
 
@@ -29,42 +46,8 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+# Link to live site n/a
+[task manager]()
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Copyright and License information
+Copyright © 2025, Steven Ennis. Released under the [MIT License](LICENSE)
