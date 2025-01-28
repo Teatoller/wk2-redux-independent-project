@@ -1,12 +1,16 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { toggleTask } from "../features/tasks/tasksSlice";
+import { toggleTask, deleteTask } from "../features/tasks/tasksSlice";
 
 const TaskItem = ({ task }) => {
   const dispatch = useDispatch();
 
   const handleToggle = () => {
     dispatch(toggleTask(task.id));
+  };
+
+  const handleDelete = () => {
+    dispatch(deleteTask(task.id));
   };
 
   return (
@@ -24,6 +28,7 @@ const TaskItem = ({ task }) => {
         >
           {task.title}
         </span>
+        <button onClick={handleDelete}>Delete</button>
       </>
     </li>
   );
