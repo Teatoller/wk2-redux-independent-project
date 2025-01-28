@@ -1,11 +1,13 @@
-import './App.css';
-import TaskList from './components/TaskList';
+import "./App.css";
+import TaskForm from "./components/TaskForm";
+import TaskList from "./components/TaskList";
 
 function App() {
   return (
     <div className="App">
-    <h1>Task Manager powered with Redux</h1>
-      <TaskList/>
+      <h1>Task Manager powered with Redux</h1>
+      <TaskForm />
+      <TaskList />
     </div>
   );
 }
