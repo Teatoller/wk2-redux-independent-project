@@ -1,5 +1,5 @@
-import React from 'react';
-import { useSelector } from 'react-redux';
+import React from "react";
+import { useSelector } from "react-redux";
 
 const TaskList = () => {
   const tasks = useSelector((state) => state.tasks.tasks);
@@ -7,9 +7,7 @@ const TaskList = () => {
   return (
     <ul>
       {tasks.map((task) => (
-        <li key={task.id}>
-          {task.text}
-        </li>
+        <li key={task.id}>{task.title}</li>
       ))}
     </ul>
   );
